@@ -138,3 +138,25 @@ app.*.symbols
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
 !.vscode/settings.json
+
+# Android specific files
+.gradle/
+/build/
+/captures/
+*.apk
+*.ap_
+local.properties
+
+# ProGuard files
+proguard/
+
+# Flutter specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# macOS specific
+.DS_Store
+
